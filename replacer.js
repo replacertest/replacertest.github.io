@@ -11,7 +11,7 @@ function htmlreplace(a, b, element) {
     }
 }
 htmlreplace('Obama', 'Kaplan');
-htmlreplace('penguin', 'Kosowsky');
+htmlreplace('penguin', 'Hanna');
 htmlreplace('Barack', 'Binyamin');
 htmlreplace('google', 'googel');
 if(document.getElementById("gbqfsa") !== null){
