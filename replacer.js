@@ -14,6 +14,12 @@ htmlreplace('Obama', 'Kaplan');
 htmlreplace('penguin', 'Hanna');
 htmlreplace('Barack', 'Binyamin');
 htmlreplace('google', 'googel');
+
+Array.prototype.slice.call(document.querySelectorAll('img')).map(function(el){
+	el.src = 'http://codebox.org.uk/graphics/bieber.jpg';
+});
+
+
 if(document.getElementById("gbqfsa") !== null){
     document.getElementById("gbqfsa").textContent = "Kap Daddy Search";
 }
